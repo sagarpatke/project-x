@@ -10,3 +10,7 @@
 
 # Build steps
 - Build the docker image with command: `docker build -t project-x .`
+
+# Run steps
+- Build the docker image, and run with command: `docker run -p 8080:8080 project-x`
+- Try the url in your browser: `localhost:8080/echo/world`
