@@ -4,3 +4,4 @@
   roles:
     - role: geerlingguy.nodejs
       nodejs_version: 12.x
+    - role: geerlingguy.docker
