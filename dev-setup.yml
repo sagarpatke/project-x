@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: true
+  roles:
+    - role: geerlingguy.nodejs
+      nodejs_version: 12.x
